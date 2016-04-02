@@ -1,0 +1,25 @@
+{
+  "name": "redux-tutorial",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hushin/redux-tutorial.git"
+  },
+  "homepage": "https://github.com/hushin/redux-tutorial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hushin/redux-tutorial/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "react": "^0.14.8"
+  }
+}
