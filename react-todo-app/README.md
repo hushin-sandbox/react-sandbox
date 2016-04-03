@@ -2,6 +2,7 @@
 
 - http://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/
 - react-seed ライブラリが古いので上げてみる
+  - 動かそうと思ったけど修正が大変なので諦め
 
 
 # React seed [![Build Status](https://travis-ci.org/badsyntax/react-seed.svg?branch=master)](https://travis-ci.org/badsyntax/react-seed)

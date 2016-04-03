@@ -31,9 +31,9 @@ if (DEBUG || TEST) {
   jsxLoader = [];
   if (!TEST) {
     jsxLoader.push('react-hot');
-    jsxLoader.push('babel-loader?optional[]=runtime&stage=0');
+    jsxLoader.push('babel-loader?presets[]=es2015,presets[]=react,presets[]=stage-0');
   } else {
-    jsxLoader.push('babel-loader?optional[]=runtime&stage=0&plugins=rewire');
+    jsxLoader.push('babel-loader?presets[]=es2015,presets[]=react,presets[]=stage-0&plugins=rewire');
   }
   sassParams.push('sourceMap', 'sourceMapContents=true');
   sassLoader = [
@@ -48,7 +48,7 @@ if (DEBUG || TEST) {
     'postcss-loader'
   ].join('!');
 } else {
-  jsxLoader = ['babel-loader?optional[]=runtime&stage=0&plugins=rewire'];
+  jsxLoader = ['babel-loader?presets[]=es2015,presets[]=react,presets[]=stage-0&plugins=rewire'];
   sassLoader = ExtractTextPlugin.extract('style-loader', [
     'css-loader',
     'postcss-loader',
